@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 440" role="img" aria-label="Biznomad Ecom Campaign Launch: a Claude Code skill that stages a 1-week, 2-week or 1-month promo campaign on every channel">
+  <defs>
+    <radialGradient id="glow" cx="82%" cy="8%" r="70%">
+      <stop offset="0" stop-color="#E63946" stop-opacity=".42"/>
+      <stop offset=".55" stop-color="#E63946" stop-opacity=".06"/>
+      <stop offset="1" stop-color="#E63946" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="hair" x1="0" x2="1">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity=".16"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity=".03"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#FFFFFF" stroke-opacity=".035"/>
+    </pattern>
+    <clipPath id="r"><rect width="1200" height="440" rx="28"/></clipPath>
+  </defs>
+  <g clip-path="url(#r)" font-family="'Space Grotesk','Helvetica Neue',Helvetica,Arial,sans-serif">
+    <rect width="1200" height="440" fill="#030303"/>
+    <rect width="1200" height="440" fill="url(#grid)"/>
+    <rect width="1200" height="440" fill="url(#glow)"/>
+
+    <!-- wordmark -->
+    <g transform="translate(64 78)">
+      <text font-size="34" font-weight="700" letter-spacing="-.5"><tspan fill="#E63946">biz</tspan><tspan fill="#FFFFFF">NOMAD</tspan></text>
+      <path d="M52 -30 l22 -14 m0 0 l-11 1 m11 -1 l-3 10" fill="none" stroke="#E63946" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="196" y="-2" font-size="15" font-weight="600" letter-spacing="3" fill="#A5A5B2">SKILLS FOR CLAUDE CODE</text>
+    </g>
+
+    <!-- title -->
+    <text x="64" y="188" font-size="78" font-weight="700" letter-spacing="-2.5" fill="#FFFFFF">Ecom Campaign Launch</text>
+    <text x="66" y="238" font-size="27" fill="#A5A5B2">One decision, the offer and the dates, becomes a full campaign</text>
+    <text x="66" y="274" font-size="27" fill="#A5A5B2">on every channel. Built paused, until you say <tspan fill="#FFFFFF" font-weight="700">launch</tspan>.</text>
+
+    <!-- step strip -->
+    <g transform="translate(64 330)" font-size="16" font-weight="600">
+      <rect x="0" y="0" width="1072" height="58" rx="14" fill="#09090D" stroke="url(#hair)"/>
+      <g fill="#A5A5B2" text-anchor="middle">
+        <text x="67" y="35">AUDIT</text><text x="201" y="35">DISCOUNTS</text><text x="335" y="35">CREATIVE</text>
+        <text x="469" y="35">ADS</text><text x="603" y="35">MESSAGES</text><text x="737" y="35">STOREFRONT</text>
+      </g>
+      <g stroke="#FFFFFF" stroke-opacity=".12"><path d="M134 12v34M268 12v34M402 12v34M536 12v34M670 12v34M804 12v34"/></g>
+      <rect x="812" y="7" width="124" height="44" rx="10" fill="#E63946"/>
+      <text x="874" y="35" text-anchor="middle" fill="#FFFFFF" font-weight="700">LAUNCH</text>
+      <text x="1004" y="35" text-anchor="middle" fill="#FFFFFF">REPORT</text>
+    </g>
+
+    <!-- chips -->
+    <g transform="translate(852 52)" font-size="15" font-weight="600" fill="#FFFFFF">
+      <rect x="0" y="0" width="84" height="34" rx="17" fill="#FFFFFF" fill-opacity=".06" stroke="#FFFFFF" stroke-opacity=".14"/>
+      <text x="42" y="22" text-anchor="middle">1 week</text>
+      <rect x="94" y="0" width="92" height="34" rx="17" fill="#FFFFFF" fill-opacity=".06" stroke="#FFFFFF" stroke-opacity=".14"/>
+      <text x="140" y="22" text-anchor="middle">2 weeks</text>
+      <rect x="196" y="0" width="88" height="34" rx="17" fill="#FFFFFF" fill-opacity=".06" stroke="#FFFFFF" stroke-opacity=".14"/>
+      <text x="240" y="22" text-anchor="middle">1 month</text>
+    </g>
+    <rect x=".5" y=".5" width="1199" height="439" rx="28" fill="none" stroke="#FFFFFF" stroke-opacity=".08"/>
+  </g>
+</svg>
