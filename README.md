@@ -27,3 +27,7 @@ Your own accounts and API access for the channels you turn on (store, ad account
 - `SKILL.md`: the run, the safety rules and when to read each reference
 - `scripts/plan.py`: unit economics and calendar, no network calls
 - `references/`: cadence, creative, ads, messaging, diagnosing a drop, platform traps
+
+## Black Friday version
+
+[`bfcm-campaign-launch`](https://github.com/Biznomad/bfcm-campaign-launch) is the Black Friday / Cyber Monday fork of this skill. It starts the day you install it and plans every day through Cyber Monday.
