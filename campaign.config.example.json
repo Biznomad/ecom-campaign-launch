@@ -24,8 +24,8 @@
     }
   ],
   "subscription": {
-    "first_order_price": 59.0,
-    "renewal_price": 72.0,
+    "first_order_price": 62.0,
+    "renewal_price": 78.0,
     "units": 3,
     "interval_days": 30
   },
