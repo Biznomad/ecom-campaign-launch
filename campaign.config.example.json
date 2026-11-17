@@ -1,0 +1,49 @@
+{
+  "brand": "Example Brand",
+  "store_domain": "example-store.myshopify.com",
+  "site_url": "https://example.com",
+  "campaign_name": "Spring Stock-Up",
+  "duration": "1w",
+  "start": "2027-03-01",
+  "end_time_local": "23:59",
+  "timezone": "America/New_York",
+  "offers": [
+    {
+      "name": "Single",
+      "units": 1,
+      "price": 25.0,
+      "regular_price": 40.0,
+      "url_path": "/products/example"
+    },
+    {
+      "name": "Bundle of 3",
+      "units": 3,
+      "price": 66.0,
+      "regular_price": 99.0,
+      "url_path": "/products/example-bundle"
+    }
+  ],
+  "subscription": {
+    "first_order_price": 59.0,
+    "renewal_price": 72.0,
+    "units": 3,
+    "interval_days": 30
+  },
+  "unit_cost": 6.0,
+  "shipping_cost_per_order": 5.0,
+  "payment_fee_pct": 2.9,
+  "payment_fee_fixed": 0.3,
+  "target_payback_orders": 2,
+  "ad_budget_per_day": 100,
+  "channels": {
+    "discounts": true,
+    "meta_ads": true,
+    "google_ads": true,
+    "email": true,
+    "sms": false,
+    "app_push": false,
+    "organic_social": true,
+    "theme": true
+  },
+  "approver": "owner"
+}

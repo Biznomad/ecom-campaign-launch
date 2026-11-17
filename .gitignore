@@ -1,0 +1,4 @@
+__pycache__/
+*.pyc
+campaign.config.json
+.DS_Store
